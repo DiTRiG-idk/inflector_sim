@@ -103,7 +103,7 @@ y_data_min = np.array(y_data_min)
 vy_data_min = np.array(vy_data_min)
 z_data_min = np.array(z_data_min)
 vz_data_min = np.array(vz_data_min)
-np.savez('prod/data_min.npz', x_data_min=x_data_min, vx_data_min=vx_data_min,
+np.savez('data_min.npz', x_data_min=x_data_min, vx_data_min=vx_data_min,
          y_data_min=y_data_min, vy_data_min=vy_data_min, z_data_min=z_data_min,
          vz_data_min=vz_data_min)
 
@@ -147,7 +147,7 @@ vy_data_max = np.array(vy_data_max)
 z_data_max = np.array(z_data_max)
 vz_data_max = np.array(vz_data_max)
 
-np.savez('prod/data_max.npz', x_data_max=x_data_max, vx_data_max=vx_data_max,
+np.savez('data_max.npz', x_data_max=x_data_max, vx_data_max=vx_data_max,
          y_data_max=y_data_max, vy_data_max=vy_data_max, z_data_max=z_data_max,
          vz_data_max=vz_data_max)
 
